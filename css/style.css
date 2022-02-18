@@ -75,6 +75,10 @@ img {
   margin: 3rem auto;
 }
 
+.about-us-logo-container {
+  text-align: center;
+}
+
 .about-us-logo {
   width: 200px;
   margin-left: 16vw;
@@ -133,8 +137,8 @@ img {
   }
   .about-us-logo {
     width: 200px;
-    /* text-align: center; */
-    margin-left: 5rem;
+    margin-left: unset;
+    margin-bottom: 3rem;
   }
 
   .body-paragraph {
@@ -160,6 +164,6 @@ img {
   }
   #contact {
     background-size: 150vw;
-    /* object-fit: cover; */
+    height: 30vh;
   }
 }
