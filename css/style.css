@@ -7,18 +7,86 @@
   --dark-green: #1b220e;
 }
 
-/* background-image: linear-gradient(var(--gradient-colors)); */
-
 body {
   font-family: "Open Sans", sans-serif;
 }
+.navbar-bg-light {
+  background-color: #e4cfcf59 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  color: white !important;
+}
+
+.navbar {
+  color: white !important;
+}
+
+#top {
+  height: 100vh;
+  background-image: url("../imgs/top-tree.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.body-paragraph {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.row {
+  padding-left: unset !important;
+  padding-right: unset !important;
+}
+
+.col,
+.col-md-4,
+.col-md-8,
+.col-lg-4,
+.col-lg-8 {
+  padding-left: unset !important;
+  padding-right: unset !important;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
 
 .lead {
+  font-size: 1.5rem;
   font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .bold-text {
   font-weight: 600;
+}
+
+.logo {
+  width: 500px;
+  position: absolute;
+  top: -10vh;
+  left: 33vw;
+}
+
+.about-us-logo {
+  width: 200px;
+  margin-left: 16vw;
+  margin-top: 3rem;
+}
+
+.mid-tree {
+  width: 90%;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+
+.cool-painting {
+  width: 250px;
+  margin: 3rem;
+  margin-left: 3rem;
 }
 
 .divider {
@@ -26,11 +94,63 @@ body {
   width: 100%;
   background: linear-gradient(90deg, var(--gradient-colors));
 }
-
+#about-us,
+#services,
+#founder,
+#contact {
+  padding-bottom: 3rem;
+}
 #services {
   background-color: var(--bg-yellow);
 }
 
+#founder {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 #contact {
-  background-color: var(--dark-green);
+  height: 100vh;
+  background-image: url("../imgs/footer-img.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  #top {
+    background-size: cover;
+    background-position: center;
+  }
+  .about-us-logo {
+    width: 200px;
+    /* text-align: center; */
+    margin-left: 5rem;
+  }
+
+  .body-paragraph {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #services {
+    padding-top: 3rem;
+  }
+  .mid-tree {
+    width: 90%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+
+  #founder {
+    padding-top: unset;
+    margin-left: 1rem;
+  }
+  #founder p {
+    margin-right: 2rem;
+  }
+  #contact {
+    background-size: 150vw;
+    /* object-fit: cover; */
+  }
 }
