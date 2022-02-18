@@ -9,7 +9,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .navbar-bg-light {
   background-color: #e4cfcf59 !important;
