@@ -172,6 +172,12 @@ img {
     padding-top: unset;
     margin-left: 1rem;
   }
+
+  .cool-painting {
+    width: 300px;
+    margin-left: unset;
+    margin-bottom: 3rem;
+  }
   #founder p {
     margin-right: 2rem;
   }
