@@ -65,11 +65,14 @@ img {
   font-weight: 600;
 }
 
-.logo {
+.svg-logo-container {
+  width: 100vw;
+  text-align: center;
+}
+
+.svg-logo {
   width: 500px;
-  position: absolute;
-  top: -10vh;
-  left: 33vw;
+  margin: 3rem auto;
 }
 
 .about-us-logo {
@@ -122,6 +125,11 @@ img {
   #top {
     background-size: cover;
     background-position: center;
+  }
+
+  .svg-logo {
+    width: 350px;
+    margin: 3rem auto;
   }
   .about-us-logo {
     width: 200px;
