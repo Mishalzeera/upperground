@@ -1,16 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
 :root {
-      
---text-black: #000000;
---gradient-colors: #ffcb05, #f58220;
---bg-yellow: #ffefc6;
---dark-green: #1b220e;
+  --text-black: #000000;
+  --gradient-colors: #ffcb05, #f58220;
+  --bg-yellow: #ffefc6;
+  --dark-green: #1b220e;
 }
 
 /* background-image: linear-gradient(var(--gradient-colors)); */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-
 body {
-      font-family: "Open Sans", sans-serif;
-      
+  font-family: "Open Sans", sans-serif;
+}
+
+.lead {
+  font-weight: 700;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.divider {
+  height: 12px;
+  width: 100%;
+  background: linear-gradient(90deg, var(--gradient-colors));
+}
+
+#services {
+  background-color: var(--bg-yellow);
+}
+
+#contact {
+  background-color: var(--dark-green);
 }
