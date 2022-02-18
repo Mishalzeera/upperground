@@ -25,6 +25,7 @@ body {
 #top {
   height: 100vh;
   background-image: url("../imgs/top-tree.jpg");
+  background-size: 100vw;
   background-repeat: no-repeat;
   background-position: top;
 }
